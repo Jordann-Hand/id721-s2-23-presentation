@@ -46,6 +46,8 @@ Change to your project's directory: `cd YourProjectName`
 Start the Expo development server: `expo start` or `npm run start`
 This will launch the Expo DevTools in your web browser and provide you with a QR code that you can scan using the Expo Go app on your mobile device to view and test your app.
 
+Alternatively if you do not wish to use the prebuilt template or you already have an applikcation setup you can just install the following package to your applicaiton using: `npm install react-native-elements@3.4.2`
+
 Begin Building with React Native Elements:
 Now that you have your Expo project with the React Native Elements template set up, you can start building your app by using the React Native Elements components. You can import and use these components in your app's code as needed.
 
@@ -53,13 +55,9 @@ Using Expo allows you to develop and test your app on both iOS and Android devic
 
 With these steps, you should be all set to start developing your React Native app with the React Native Elements UI library within the Expo environment.
 
-Find Below a quick video of me walking you through the installation process:
+So now that you have succesfully created an expo app using the react-native-elements template (@rneui/template) 
 
-#### VIDEO
-
-So now that you have succesfully created an expo app using the react-native-elements template (@rneui/template) what can we do next in order 
-
-
+You can find a full step by step guide in the full presentation included below:
 
 Quick example:
 
@@ -68,3 +66,11 @@ Quick example:
 const App = () => {
   return <Button title="Hello World" />;
 };`
+
+
+References Links: 
+Overview/ installation: https://reactnativeelements.com/docs#:~:text=The%20aim%20of%20React%20Native,developers%20all%20around%20open%20source.
+
+Code examples: https://react-native-elements.js.org/#/
+
+React Native Elements: https://reactnativeelements.com/
