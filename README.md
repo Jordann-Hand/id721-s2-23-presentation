@@ -61,11 +61,103 @@ You can find a full step by step guide in the full presentation included below:
 
 Quick example:
 
+Button:
+
+Talking Points:
+Buttons are essential UI elements in any app, used for triggering actions or navigation.
+React Native Elements provides a Button component that's easy to integrate into your app.
+Users can customize the button's text, style, and behavior to match their app's design and functionality.
+You can set various props like title, type, icon, and onPress to control the button's appearance and actions.
+These buttons simplify the process of adding interactive elements, making it easier for users to create call-to-action buttons, submit forms, and more.
+
+
 `import { Button } from '@rneui/base';
 
 const App = () => {
   return <Button title="Hello World" />;
 };`
+
+Text Input:
+
+Talking Points:
+Text inputs are a fundamental part of user interaction, allowing users to enter data.
+React Native Elements' Input component streamlines the integration of text input fields in your app.
+Users can specify various properties like placeholder, value, and onChangeText to control the input field's behavior and appearance.
+Features like input validation, password visibility toggles, and keyboard types can be easily configured.
+These input fields make it convenient for users to collect data, such as login credentials, search queries, or user-generated content.
+
+import { Input } from 'react-native-elements';
+
+const App = () => {
+  return <Input placeholder="Enter text" />;
+};
+
+
+Card:
+
+Talking Points:
+Cards are commonly used to present organized information, such as news articles or product details.
+React Native Elements' Card component simplifies the creation of card-based interfaces.
+Users can include a title, content, and action elements within the card.
+The Card component allows for easy separation of content and enhances the visual presentation.
+Cards are versatile and can be used for displaying a wide range of content, from product listings to event details.
+
+import { Card, ListItem, Button } from 'react-native-elements';
+
+const App = () => {
+  return (
+    <Card>
+      <Card.Title>Card Title</Card.Title>
+      <Card.Divider />
+      <ListItem>
+        <ListItem.Content>
+          <ListItem.Title>Card Item</ListItem.Title>
+        </ListItem.Content>
+      </ListItem>
+      <Button title="Button" />
+    </Card>
+  );
+};
+
+Icon:
+
+Talking Points:
+Icons are valuable for adding visual cues to your app, aiding in navigation and information conveyance.
+React Native Elements' Icon component allows users to integrate icons from various icon libraries, such as FontAwesome.
+Users can customize the icon's appearance using props like name, type, color, and size.
+Icons can be used to improve the user interface by indicating specific actions, such as liking a post with a heart icon.
+React Native Elements simplifies the addition of icons, enhancing the visual appeal and usability of an app.
+
+import { Icon } from 'react-native-elements';
+
+const App = () => {
+  return <Icon name="heart" type="font-awesome" color="red" size={30} />;
+};
+
+Avatar:
+
+Talking Points:
+Avatars, commonly used for user profiles, help personalize and humanize the user experience.
+React Native Elements' Avatar component allows users to easily incorporate user profile images.
+Users can customize the avatar by specifying properties like rounded, source, and size.
+Avatars are beneficial for user recognition, chat applications, and social networking platforms.
+React Native Elements makes it straightforward to display user avatars, enhancing the user engagement and identification within the app.
+
+import { Avatar } from 'react-native-elements';
+
+const App = () => {
+  return (
+    <Avatar
+      rounded
+      source={{ uri: 'https://example.com/avatar.jpg' }}
+      size="large"
+    />
+  );
+};
+
+
+
+
 
 
 References Links: 
