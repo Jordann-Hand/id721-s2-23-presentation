@@ -50,7 +50,7 @@ The library is designed to help developers save time and effort by offering a wi
 
 So now that you have successfully created an Expo app using React Native Elements, you can find a full step-by-step guide in the [full presentation](#) included below:
 
-## Quick Example
+## Code Examples
 
 ### Button
 
