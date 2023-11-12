@@ -48,7 +48,7 @@ The library is designed to help developers save time and effort by offering a wi
 
    Using Expo allows you to develop and test your app on both iOS and Android devices easily. You can also publish your app through Expo's platform when you're ready to share it with others.
 
-So now that you have successfully created an Expo app using React Native Elements, you can find a full step-by-step guide in the [full presentation](#) included below:
+So now that you have successfully created an Expo app using React Native Elements, you can find a full step-by-step guide in the [full presentation](https://otagopoly-my.sharepoint.com/:v:/g/personal/handjw1_student_op_ac_nz/EX5rzES9vGxOjJ2HlnYjPDMBdQhULOiKSxe7LQUMZCgYRA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=OhGxbI) included below:
 
 ## Code Examples
 
