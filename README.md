@@ -1,5 +1,9 @@
 # React Native Elements
 
+## Link to full presentation
+
+[Full presentation](https://otagopoly-my.sharepoint.com/:v:/g/personal/handjw1_student_op_ac_nz/EX5rzES9vGxOjJ2HlnYjPDMBdQhULOiKSxe7LQUMZCgYRA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=OhGxbI)
+
 ## Quick Overview
 
 **React Native Elements** is a popular open-source UI library for building mobile applications using the React Native framework. It provides a collection of pre-designed and customizable UI components that can be easily integrated into your React Native app, simplifying the process of creating a consistent and visually appealing user interface.
